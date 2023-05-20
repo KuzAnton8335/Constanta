@@ -1,0 +1,46 @@
+.hero {
+	padding-top: 106px;
+	position: relative;
+
+	&__content {
+		text-align: center;
+	}
+
+	&__swiper {
+		position: relative;
+	}
+
+	&__logo {
+		margin: 0 auto;
+		padding-bottom: 78px;
+	}
+
+	&__title {
+		max-width: 1200px;
+		font-weight: 500;
+		font-size: $font-size-78;
+		line-height: 120%;
+		color: $black;
+		padding-bottom: 81px;
+		padding-left: 60px;
+	}
+
+	&__picture {
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		margin: 0 auto;
+	}
+
+	&__navigation {
+		position: absolute;
+		top: 29%;
+		left: 13%;
+		display: flex;
+		z-index: 1;
+	}
+
+	&__button-next {
+		padding-left: 1300px;
+	}
+}

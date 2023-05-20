@@ -1,0 +1,63 @@
+.header {
+	background-color: $blue-gray;
+
+	&__container {
+		padding-top: 35px;
+		padding-bottom: 35px;
+		display: flex;
+		align-items: center;
+	}
+
+	&__logo-link {
+		padding-right: 180px;
+	}
+
+	&__list {
+		display: flex;
+		align-items: center;
+	}
+
+	&__item {
+		padding-right: 38px;
+
+		&:last-child {
+			padding-right: 0;
+		}
+	}
+
+	&__link {
+		font-weight: 500;
+		font-size: $font-size-20;
+		line-height: 20px;
+		color: $black;
+		text-decoration: 0;
+		border-bottom: 0 solid $black;
+		transition: 0.4s;
+
+		&:hover {
+			color: $black;
+			border-bottom-width: 1px;
+		}
+	}
+
+	&__info {
+		padding: 0;
+		margin: 0;
+		max-width: 192px;
+		display: flex;
+		flex-direction: column;
+		margin-left: 180px;
+	}
+
+	&__info-phone {
+		font-weight: 600;
+		font-size: $font-size-24;
+		line-height: 24px;
+		padding-bottom: 14px;
+	}
+
+	&__info-email {
+		font-weight: 400;
+		font-size: $font-size-20;
+	}
+}

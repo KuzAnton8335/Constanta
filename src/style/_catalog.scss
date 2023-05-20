@@ -1,0 +1,33 @@
+.catalog {
+	padding-top: 88px;
+
+	&__title {
+		font-weight: 500;
+		font-size: $font-size-62;
+		line-height: 160%;
+		color: $black;
+		padding-bottom: 30px;
+	}
+
+	&__name {
+		display: flex;
+		border-radius: 15px;
+		padding: 40px;
+		background-color: $off-gray;
+	}
+
+	&__name-logo {
+		padding: 43px 46px;
+		background: $white;
+		border: 2px solid $off-white;
+		border-radius: 15px;
+		margin-right: 40px;
+	}
+
+	&__descr {
+		font-weight: 400;
+		font-size: $font-size-24;
+		line-height: 160%;
+		color: $black;
+	}
+}
